@@ -1,0 +1,7 @@
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.csproj.AssemblyReference.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.AssemblyInfoInputs.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.AssemblyInfo.cs
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.csproj.CoreCompileInputs.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.MvcApplicationPartsAssemblyInfo.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.sourcelink.json

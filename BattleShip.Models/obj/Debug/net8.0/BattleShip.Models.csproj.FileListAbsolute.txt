@@ -1,0 +1,12 @@
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/bin/Debug/net8.0/BattleShip.Models.deps.json
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/bin/Debug/net8.0/BattleShip.Models.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/bin/Debug/net8.0/BattleShip.Models.pdb
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.AssemblyInfoInputs.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.AssemblyInfo.cs
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.csproj.CoreCompileInputs.cache
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.sourcelink.json
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/refint/BattleShip.Models.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/BattleShip.Models.pdb
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/obj/Debug/net8.0/ref/BattleShip.Models.dll
