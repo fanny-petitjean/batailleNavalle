@@ -422,13 +422,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.1": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -924,13 +924,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.1": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -1811,10 +1811,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.1": {
-      "sha512": "ADdJXuKNjwZDfBmybMnpvwd5CK3gp92WkWqqeQhW4W+q4MO3Qaa9QyW2DcFLAvCDMcCWxT5hRXqGdv13oon7nA==",
+    "Microsoft.NET.ILLink.Tasks/8.0.8": {
+      "sha512": "P8wR6MUWwYXIjPJuBaZgo5zlI/GWI6QEAo6NyVIbPefa9CCkohYu7dP2rD/mrqnjEqfRHyl+h9VZrDoGpELqYg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.1",
+      "path": "microsoft.net.illink.tasks/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1828,7 +1828,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.1.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1862,10 +1862,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.1": {
-      "sha512": "WE5sCiA6FbpmHBA7SeIApjBhBFfHQlWTqn5N5jCTncpSHFchjsc6hyXhPjS0PqIV8eiWayNmJpN+VmV1nHFVAw==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.8": {
+      "sha512": "z2UxqxjssvxlcQ68KZorgQDITdV2u5H6CWOGhs3kiv+qqDtokhDpcK660TUMrX+FTDdRKie0l7EeZEdej26Ycw==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/8.0.1",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1893,7 +1893,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "microsoft.net.sdk.webassembly.pack.8.0.1.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.8.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -1901,6 +1901,7 @@
         "tools/net472/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net472/Microsoft.NET.StringTools.dll",
         "tools/net472/Microsoft.NET.WebAssembly.Webcil.dll",
+        "tools/net472/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
         "tools/net472/System.Buffers.dll",
         "tools/net472/System.Collections.Immutable.dll",
         "tools/net472/System.Configuration.ConfigurationManager.dll",
@@ -1923,6 +1924,7 @@
         "tools/net8.0/Microsoft.NET.WebAssembly.Webcil.dll",
         "tools/net8.0/Microsoft.Win32.SystemEvents.dll",
         "tools/net8.0/System.Configuration.ConfigurationManager.dll",
+        "tools/net8.0/System.Diagnostics.EventLog.dll",
         "tools/net8.0/System.Drawing.Common.dll",
         "tools/net8.0/System.Reflection.MetadataLoadContext.dll",
         "tools/net8.0/System.Security.Cryptography.ProtectedData.dll",
@@ -2078,37 +2080,45 @@
       "BattleShip.Models >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.1",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.1",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.1"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.8"
     ]
   },
   "packageFolders": {
-    "/Users/the_pineapple_girl/.nuget/packages/": {}
+    "C:\\Users\\petit\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/BattleShip.App.csproj",
+      "projectUniqueName": "C:\\Users\\petit\\Documents\\batailleNavalle\\BattleShip.App\\BattleShip.App.csproj",
       "projectName": "BattleShip.App",
-      "projectPath": "/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/BattleShip.App.csproj",
-      "packagesPath": "/Users/the_pineapple_girl/.nuget/packages/",
-      "outputPath": "/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/",
+      "projectPath": "C:\\Users\\petit\\Documents\\batailleNavalle\\BattleShip.App\\BattleShip.App.csproj",
+      "packagesPath": "C:\\Users\\petit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\petit\\Documents\\batailleNavalle\\BattleShip.App\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/the_pineapple_girl/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\petit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/BattleShip.Models.csproj": {
-              "projectPath": "/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.Models/BattleShip.Models.csproj"
+            "C:\\Users\\petit\\Documents\\batailleNavalle\\BattleShip.Models\\BattleShip.Models.csproj": {
+              "projectPath": "C:\\Users\\petit\\Documents\\batailleNavalle\\BattleShip.Models\\BattleShip.Models.csproj"
             }
           }
         }
@@ -2117,6 +2127,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2135,13 +2150,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.1, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           }
         },
@@ -2156,18 +2171,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-            "version": "[8.0.1, 8.0.1]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

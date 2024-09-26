@@ -1,7 +1,8 @@
+using BattleShip.App;
+using BattleShip.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -15,30 +16,30 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+var games = new Dictionary<Guid, Game>();
 
-var summaries = new[]
+app.MapPost("/newGame", () =>
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
+    List<Ship> ships = new List<Ship>();
+    ships.Add(new Ship('A', 5, true,0,2));
+    ships.Add(new Ship('B', 4, true, 0, 2));
+    var player = new Player("Player 1", ships);
+    List<Player> players = new List<Player>();
+    players.Add(player);
+    games.Add(new Guid(), new Game(players));
+    //retourner la grille affichée
 })
-.WithName("GetWeatherForecast")
+.WithName("StartNewGame")
 .WithOpenApi();
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
+app.MapPost("/{idGame}/attack", (Guid idGame, Command command) =>
 {
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+    //tester l'attaque
+    //retourner état du jeu 
+    //etat du tir (touché, raté)
+    // si gagné, retourner le gagnant
+
+    //retourner la grille affichée
+});

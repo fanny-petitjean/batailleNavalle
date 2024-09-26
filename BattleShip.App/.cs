@@ -1,40 +1,44 @@
-namespace DefaultNamespace;
+namespace BattleShip.App;
 using System;
-public class PlaceShipGrid(char[,] grid)
+public class PlaceShipGrid
 {
-    private var ships = new List<Ship>
+    private List<Ship> ships = new List<Ship>
     {
-        new Ship('A' 4),
-        new Ship('B', 4),
-        new Ship('C', 3),
-        new Ship('C', 3),
-        new Ship('D', 2),
-        new Ship('E', 2),
-        new Ship('F', 1)
+        new Ship('A', 4, true),
+        new Ship('B', 4, true),
+        new Ship('C', 3, true),
+        new Ship('C', 3, true),
+        new Ship('D', 2,false),
+        new Ship('E', 2, true),
+        new Ship('F', 1, false)
     };
-    foreach (var ship in Ships)
-    {
-        BattleShipGrid(grid, ship);
-    }
+    
 
-    private void PlaceShipGrid(char[,] grid, Ship ship)
+    public PlaceShipGrid(char[,] grid, Ship ship)
     {
+        //////
+        foreach (var ship in ships)
+        {
+            BattleShipGrid(grid, ship);
+        } 
+
+        /////
         bool placed = false;
         Random randomplace = Random.Shared;
 
         while (!placed)
         {
-            ship.IsHorizontal = randomplace.Next(2) == 0;
+            ship.isHorizontal = randomplace.Next(2) == 0;
             int x = randomplace.Next(GridSize);
             int y = randomplace.Next(GridSize);
 
-            if (ship.IsHorizontal)
+            if (ship.isHorizontal)
             {
-                if (y + ship.Size <= GridSize && IsSpaceAvailable(grid, x, y, ship.Size, ship.IsHorizontal))
+                if (y + ship.size <= GridSize && IsSpaceAvailable(grid, x, y, ship.size, ship.isHorizontal))
                 {
-                    for (int i = 0; i < ship.Size; i++)
+                    for (int i = 0; i < ship.size; i++)
                     {
-                        grid[x,y+i] = ship.Symbol;
+                        grid[x,y+i] = ship.letter;
                     }
                     placed = true;
                     ship.Position = (x, y);
@@ -42,11 +46,11 @@ public class PlaceShipGrid(char[,] grid)
             }
             else
             {
-                if (x + ship.Size <= GridSize && IsSpaceAvailable(grid, x, y, ship.Size, ship.IsHorizontal))
+                if (x + ship.size <= GridSize && IsSpaceAvailable(grid, x, y, ship.size, ship.isHorizontal))
                 {
-                    for (int i = 0; i < ship.Size; i++)
+                    for (int i = 0; i < ship.size; i++)
                     {
-                        grid[x+i,y]=ship.Symbol;
+                        grid[x+i,y]=ship.letter;
                     }
                     placed = true;
                     ship.Position = (x, y);
