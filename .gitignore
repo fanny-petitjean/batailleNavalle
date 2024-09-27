@@ -1,6 +1,16 @@
 # Build Folders
 bin/
 obj/
+BattleShip.API/obj/
+BattleShip.API/bin/
+
+BattleShip.App/obj/
+BattleShip.App/bin/
+
+#  les fichiers de cache pour BattleShip.Models
+BattleShip.Models/obj/
+BattleShip.Models/bin/
+
 
 # User-specific files
 *.rsuser
