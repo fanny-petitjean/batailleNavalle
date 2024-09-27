@@ -34,3 +34,17 @@
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/obj/Debug/net8.0/BattleShip.API.pdb
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/obj/Debug/net8.0/BattleShip.API.genruntimeconfig.cache
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/obj/Debug/net8.0/ref/BattleShip.API.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/BattleShip.App.staticwebassets.runtime.json
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/BattleShip.API.staticwebassets.runtime.json
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Components.WebAssembly.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.JSInterop.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/BattleShip.App.dll
+/Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.API/bin/Debug/net8.0/BattleShip.App.pdb

@@ -1,7 +1,40 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<h3>Bataille Navale</h3>
 
-<h1>Hello, world!</h1>
+<button @onclick="GenerateGrid">Générer la grille</button>
 
-Welcome to your new app.
+<div style="margin-top: 20px;">
+    @if (grid != null)
+    {
+        <table>
+            @for (int i = 0; i < grid.GetLength(0); i++)
+            {
+                <tr>
+                    @for (int j = 0; j < grid.GetLength(1); j++)
+                    {
+                        <td style="padding: 5px; border: 1px solid black;">
+                            @if (grid[i, j] == '\0')
+                            {
+                                <span>.</span> 
+                            }
+                            else
+                            {
+                                <span>@grid[i, j]</span> 
+                            }
+                        </td>
+                    }
+                </tr>
+            }
+        </table>
+    }
+</div>
+
+@code {
+    private char[,] grid;  
+    private void GenerateGrid()
+    {
+        grid = new char[10, 10];  // Créer une grille 10x10
+        PlaceShipGrid placeShipGrid = new PlaceShipGrid(grid);
+    }
+}

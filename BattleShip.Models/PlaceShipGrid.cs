@@ -1,10 +1,10 @@
 namespace BattleShip.App;
 using System;
 public class PlaceShipGrid
-{
+{   
     private const int GridSize = 10;
     private const char EmptyCell = '\0';
-    private List<Ship> ships = new List<Ship>
+    public List<Ship> ships = new List<Ship>
     {
         new Ship('A', 4, true,0,1),
         new Ship('B', 4, true, 0, 1),
@@ -14,8 +14,14 @@ public class PlaceShipGrid
         new Ship('E', 2, true, 0, 1),
         new Ship('F', 1, false, 0, 1)
     };
-
-    public void InitializeGrid(char[,] grid)
+    
+    public char[,] Grid { get; private set; }
+    public PlaceShipGrid(char[,] grid)
+    {
+        InitializeGrid(grid);
+        PlaceAllShips(grid);
+    }
+    private void InitializeGrid(char[,] grid)
     {
         for (int i = 0; i < GridSize; i++)
         {
@@ -25,11 +31,16 @@ public class PlaceShipGrid
             }
         }
     }
-
-
-    public PlaceShipGrid(char[,] grid, Ship ship)
+    private void PlaceAllShips(char[,] grid)
     {
-        
+        foreach (var ship in ships)
+        {
+            PlaceShip(grid, ship);
+        }
+    }
+    
+    private void  PlaceShip(char[,] grid, Ship ship)
+    {
         bool placed = false;
         Random randomplace = Random.Shared;
 
@@ -67,50 +78,22 @@ public class PlaceShipGrid
             }
         }
     }
-
     private bool IsSpaceAvailable(char[,] grid, int x, int y, int shipSize, bool isHorizontal)
     {
-        if (isHorizontal)
-        {
-            if (y + shipSize > GridSize) return false; 
-        }
-        else
-        {
-            if (x + shipSize > GridSize) return false; 
-        }
-
         for (int i = 0; i < shipSize; i++)
         {
             if (isHorizontal)
             {
                 if (y + i >= GridSize || grid[x, y + i] != EmptyCell)
-                    return false;
+                    return false;  
             }
             else
             {
                 if (x + i >= GridSize || grid[x + i, y] != EmptyCell)
-                    return false;
+                    return false;  
             }
         }
-
-        return true;
+        return true;  
     }
-
-    private void PlaceShip(char[,] grid, Ship ship, int x, int y)
-    {
-        for (int i = 0; i < ship.size; i++)
-        {
-            if (ship.isHorizontal)
-            {
-                grid[x, y + i] = ship.letter; // Placement horizontal
-            }
-            else
-            {
-                grid[x + i, y] = ship.letter; // Placement vertical
-            }
-        }
-        ship.positionX = x;
-        ship.positionY = y;
-    }
-
-}
+// char [,] grid generatedhrid = PlaceShipGrid.Grid
+} 
