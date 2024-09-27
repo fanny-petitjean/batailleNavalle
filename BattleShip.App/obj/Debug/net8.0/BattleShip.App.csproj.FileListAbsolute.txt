@@ -5,3 +5,10 @@
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.csproj.CoreCompileInputs.cache
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.MvcApplicationPartsAssemblyInfo.cache
 /Users/the_pineapple_girl/RiderProjects/batailleNavalle/BattleShip.App/obj/Debug/net8.0/BattleShip.App.sourcelink.json
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.csproj.AssemblyReference.cache
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.AssemblyInfoInputs.cache
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.AssemblyInfo.cs
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.csproj.CoreCompileInputs.cache
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\petit\Documents\batailleNavalle\BattleShip.App\obj\Debug\net8.0\BattleShip.App.sourcelink.json
