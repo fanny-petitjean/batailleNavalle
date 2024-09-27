@@ -1,16 +1,8 @@
 # Build Folders
 bin/
 obj/
-BattleShip.API/obj/
-BattleShip.API/bin/
-
-BattleShip.App/obj/
-BattleShip.App/bin/
-
-#  les fichiers de cache pour BattleShip.Models
-BattleShip.Models/obj/
-BattleShip.Models/bin/
-
+**/obj/
+**/bin/
 
 # User-specific files
 *.rsuser
@@ -26,6 +18,11 @@ BattleShip.Models/bin/
 artifacts/
 **/project.lock.json
 **/project.fragment.lock.json
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
 
 # Visual Studio
 .vs/
@@ -65,8 +62,6 @@ appsettings.*
 *.sourcelink.json
 *.genruntimeconfig.cache
 *.csproj.nuget.dgspec.json
-*.csproj.nuget.g.props
-*.csproj.CoreCompileInputs.cache
 *.AssemblyReference.cache
 *.assets.cache
 
@@ -81,3 +76,5 @@ project.fragment.lock.json
 *.dll
 *.pdb
 *.exe
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
